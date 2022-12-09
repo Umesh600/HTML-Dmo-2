@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+
+<head>
+</head>
+
+<body>
+    <form>
+        <pre>
+         <h1> <p style="font-family ">               Admissions Form</p> </h1>
+   </pre>
+
+        <label for="name"><h4>Enter name:</label>
+        <input type="text" id="name" name="name">
+        <label for="pass">Enter Password:</label>
+
+        <input type="Password" id="pass" name="pass"><br><br>
+        <input type="submit" value="submit">
+        <button name="button" value="OK" type="button" onclick="hello()">sign up</button>
+
+        <h4>First Name:</h4> <input type="text" name="firstname" />
+        <h4>Middle Name:</h4> <input type="text" name="middlename" />
+        <h4> Last Name: </h4> <input type="text" name="lastname" />
+
+        <label for="email"> <h3>Email:</h3></label>
+        <input type="email" id="email" name="email" />
+        <label for="password"><h3>Password: </h3></label>
+        <input type="password" id="password" name="password" /> <br/>
+
+        <h3>Birth Date:</h3>
+        <input type="text" name="month" /> <input type="number" name="date" /> <input type="number" name="year" /> <br>
+
+        <label for="gender"><h3>Gender:</h3> </label>
+        <input type="radio" id="gender" name="gender" value="male" /> <b>Male</b>
+        <input type="radio" id="gender" name="gender" value="female" /><b>Female</b> <br> <br>
+
+        <td class="tdLabel"><label for="register_country" class="label">Select Country:</label></td>
+        <td><select name="country" id="register_country" style="width:160px">  
+    <option value="india">india</option>  
+    <option value="pakistan">pakistan</option>  
+    <option value="africa">africa</option>  
+    <option value="china">china</option>  
+    <option value="other">other</option>  
+</select>
+        </td>
+
+        <h3> Hobby:</h3><br>
+        <input type="checkbox" id="cricket" name="cricket" value="cricket" />
+        <label for="cricket"><b>Cricket</label> <br>
+        <input type="checkbox" id="football" name="football" value="football" />
+        <label for="football">Football</label> <br>
+        <input type="checkbox" id="hockey" name="hockey" value="hockey" />
+        <label for="hockey">Hockey</b></label>
+
+        <h3>Phone Number:</h3> <textarea>  </textarea>
+
+        <td colspan="2">
+            <div align="right"><input type="submit" id="register_0" value="register" />
+    </form>
+</body>
+
+</html>
